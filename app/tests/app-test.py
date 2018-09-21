@@ -2,6 +2,7 @@ import unittest
 from app.src.app import my_function
 
 
+
 class MyTest(unittest.TestCase):
     def test_my_function(self):
         self.assertEqual(my_function(1, 1), 2)
